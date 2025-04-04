@@ -4,7 +4,6 @@ const maxRecords = 251
 const limit = 20;
 let offset = 0;
 
-
 function convertPokemonToLi(pokemon) {
     return `
         <a href="info.html"><li class="pokemon ${pokemon.type}">
