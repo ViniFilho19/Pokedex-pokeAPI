@@ -1,0 +1,44 @@
+
+
+
+Requisição HTTP
+
+
+
+URL: https://pokeapi.co/api/v2/pokemon
+    ${Endereço}/${path = caminho de identificação do recurso}
+
+Request Methods; GET | POST | PUT | DELETE
+
+offset = 20
+limit = 20
+
+
+Query String = ?offset= X &limit= X
+
+obs; vini do futuro, esses "X" aí é pra dizer q pode entrar qualquer numero 
+
+Request Headers 
+  Configuração
+  accept-language;
+  pt-BR;q=1
+  pt;q=0.9
+  en-US;q=0.8
+  en;q=0.7
+  gl;q=0.6
+  content-type: application/json
+  
+
+Response Headers
+  Configuração
+
+Request body
+{
+  "name"; "teste"
+}
+
+Status Code : 200 OK
+
+Response Headers
+
+Response Body
